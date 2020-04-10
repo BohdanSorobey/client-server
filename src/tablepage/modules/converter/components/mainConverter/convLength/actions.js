@@ -1,0 +1,1 @@
+export const toggleIsAuth = () => ({ type: "TOGGLE_IS_AUTH" });

@@ -1,0 +1,34 @@
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-wrapper);
+  align-items: center;
+  justify-content: center;
+
+  &__header {
+    background: var(--bg-header);
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__footer {
+    height: 100px;
+    color: var(--text-color-footer);
+    width: 100%;
+    font-size: 12px;
+  }
+
+  &__main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+  }
+}
+

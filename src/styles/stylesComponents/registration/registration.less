@@ -1,0 +1,105 @@
+@padding: 2px 0 2px 0;
+@import "../../variables";
+
+@background-buttons: rgba(76, 175, 80, 1);
+@background-input: rgba(241, 241, 241, 0);
+@font-color-button: rgba(255, 255, 255);
+@font-size-button: 20px;
+
+.content-box {
+  width: 33%;
+  position: relative;
+  margin: 0 auto;
+}
+.registration-form {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    padding: @padding;
+    font-size: 20px;
+  }
+
+  &__item:last-child {
+    display: inline-block;
+    text-align: right;
+  }
+}
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+}
+
+.alert-error{
+  font-size: 18px;
+  color: red;
+}
+.notification{
+  font-size: 18px;
+  color: grey;
+}
+.footer {
+  bottom:0;
+  text-align:center;
+  width:100%;
+  margin-top: -100px;
+}
+.footer__text{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+  font-size: 16px;
+  padding: 0px 10px 0 0;
+}
+.dic{
+  margin-bottom: 10px;
+}
+.registration-output-block{
+  display: flex;
+  height: 15px;
+  width: 180px;
+}
+
+.output-registration{
+  display: none;
+  color: red;
+}
+.output-id-keyword{
+  color: black;
+}
+
+.phone-select{
+  margin: 0 5px 0 0;
+  height: 29px;
+  width: 100%;
+  border:none;
+  opacity: 0.7;
+  outline: none;
+  border-bottom: 2px solid orange;
+  transition-duration: 0.8s;
+  &:focus {
+    background-color: orange;
+    color: white;
+    border-bottom: 2px solid black;
+  }
+
+}
+.select-div{
+  width: 20%;
+}
+.input-phone-div{
+  width: 80%;
+}
+.phone-input{
+  transform: translateY(0.5px);
+  width: 100%;
+}
+.div-class-select{
+  display: flex;
+}

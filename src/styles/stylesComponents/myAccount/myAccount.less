@@ -1,0 +1,167 @@
+.my-account{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.left-block{
+  border: 2px solid black;
+  display: flex;
+  width: 35%;
+  height: 100%;
+  flex-direction: column;
+}
+.right-block{
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  width: 65%;
+  height: 100%;
+  flex-direction: column;
+}
+.static-info{
+  padding: 5px 0 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.static-info-block{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 5px 0 5px 0;
+}
+.additional-info{
+  height: 50%;
+}
+.text-area{
+  width: 100%;
+  height: 80%;
+  resize: none;
+  border:none;
+  opacity: 0.7;
+  outline: none;
+  border-bottom: 2px solid orange;
+  transition-duration: 0.8s;
+  &:focus {
+    background-color: orange;
+    color: white;
+    border-bottom: 2px solid black;
+  }
+}
+.div-box-my-account{
+  display: flex;
+  justify-content: space-evenly;
+}
+.my-account-logo-page{
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+.button-account-block{
+  width: 100%;
+  height: 37px;
+  display: flex;
+  justify-content: flex-end;
+}
+.change-buttons{
+  width: 85px;
+  height: 37px;
+}
+.input-account{
+  width: 200px;
+  margin-left: 5px;
+}
+.label-account{
+  margin-left: 5px;
+}
+.chat-box{
+  background: grey;
+}
+.ball-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+}
+
+.canvas{
+  background: white;
+  width: 600px;
+  height: 200px;
+}
+.image-block-add{
+  width: 100%;
+  display: flex;
+  margin-left: 70px;
+  position: relative;
+}
+.image-block-wrap{
+  width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+}
+.image-block-button{
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 34%;
+  top: 24%;
+}
+.input-image{
+  cursor: pointer;
+  position: relative;
+  opacity: 0;
+  width: 35%;
+  padding: 10px;
+}
+.button-image{
+  cursor: pointer;
+  position: absolute;
+  padding: 6px;
+  background-color: #fff;
+  color: #000;
+  border: 2px solid orange;
+  border-radius: 10px;
+  font-size: 15px;
+  transition-duration: 1s;
+  outline: none;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header-chat-block{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 15%;
+}
+.main-chat-block{
+  display: flex;
+  width: 100%;
+  height: 70%;
+}
+.chat-control-panel{
+  display: flex;
+  width: 100%;
+  height: 15%;
+  justify-content: flex-end;
+}
+//.chat-block{
+//  overflow: auto;
+//  //background-color: white;
+//  width: 80%;
+//  max-height: 172px;
+//}
+.chat-online-users{
+  width: 20%;
+  max-height: 172px;
+  overflow: auto;
+}
+.input-chat{
+  width: 100%;
+}

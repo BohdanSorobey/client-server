@@ -1,0 +1,1 @@
+export const timeCalculatorMode = state => state.admin.timeCalculatorMode;

@@ -1,0 +1,17 @@
+export const getPageState = state => state.common.pageState;
+export const getLocale = state => state.translates.locale;
+export const getDictionary = state => state.translates.dictionary;
+export const getTeachersGroups = state => state.teacher.groups;
+export const getStateModalSettings = state => state.settingsModal.isSettingsModal;
+export const getStudents = state => state.teacher.students;
+export const getCurrentMode = state => state.teacher.currentMode;
+export const getControlInputs = state => state.config.inputs;
+export const isModal = state => state.modal.isModal;
+export const getButtonsControl = state => state.config.buttonsTable;
+export const getDivs = state => state.config.divsTable;
+export const getActiveGroup = state => state.teacher.activeGroup;
+export const getModalOK = state => state.modal.modalOkCancel;
+export const getCurrentModal = state => state.modal.modal;
+export const getButtonsStudent = state => state.teacher.buttonsStudent;
+export const getCurrentStudent = state => state.teacher.currentStudent;
+export const notificationState = state => state.common.notificationState;

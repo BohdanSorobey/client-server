@@ -1,0 +1,345 @@
+exports["<Layout />/should match snapshot(0)"] = {
+  "node": {
+    "nodeType": "host",
+    "type": "div",
+    "props": {
+      "className": "wrapper",
+      "children": [
+        {
+          "type": "div",
+          "props": {},
+          "_store": {}
+        },
+        {
+          "type": "header",
+          "props": {
+            "className": "Header",
+            "children": "Hello"
+          },
+          "_store": {}
+        },
+        {
+          "type": "div",
+          "props": {
+            "className": "Main",
+            "children": [
+              {
+                "type": "div",
+                "props": {
+                  "className": "left"
+                },
+                "_store": {}
+              },
+              {
+                "type": "div",
+                "props": {
+                  "className": "right",
+                  "children": {
+                    "type": "button",
+                    "props": {
+                      "className": "aim",
+                      "onClick": "[function]",
+                      "children": "en"
+                    },
+                    "_store": {}
+                  }
+                },
+                "_store": {}
+              }
+            ]
+          },
+          "_store": {}
+        },
+        {
+          "type": "footer",
+          "props": {},
+          "_store": {}
+        }
+      ]
+    },
+    "rendered": [
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {}
+      },
+      {
+        "nodeType": "host",
+        "type": "header",
+        "props": {
+          "className": "Header",
+          "children": "Hello"
+        },
+        "rendered": "Hello"
+      },
+      {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "Main",
+          "children": [
+            {
+              "type": "div",
+              "props": {
+                "className": "left"
+              },
+              "_store": {}
+            },
+            {
+              "type": "div",
+              "props": {
+                "className": "right",
+                "children": {
+                  "type": "button",
+                  "props": {
+                    "className": "aim",
+                    "onClick": "[function]",
+                    "children": "en"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "left"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "right",
+              "children": {
+                "type": "button",
+                "props": {
+                  "className": "aim",
+                  "onClick": "[function]",
+                  "children": "en"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "className": "aim",
+                "onClick": "[function]",
+                "children": "en"
+              },
+              "rendered": "en"
+            }
+          }
+        ]
+      },
+      {
+        "nodeType": "host",
+        "type": "footer",
+        "props": {}
+      }
+    ]
+  },
+  "type": "div",
+  "props": {
+    "className": "wrapper"
+  },
+  "children": [
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {}
+      },
+      "type": "div",
+      "props": {}
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "header",
+        "props": {
+          "className": "Header",
+          "children": "Hello"
+        },
+        "rendered": "Hello"
+      },
+      "type": "header",
+      "props": {
+        "className": "Header"
+      },
+      "children": [
+        "Hello"
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "div",
+        "props": {
+          "className": "Main",
+          "children": [
+            {
+              "type": "div",
+              "props": {
+                "className": "left"
+              },
+              "_store": {}
+            },
+            {
+              "type": "div",
+              "props": {
+                "className": "right",
+                "children": {
+                  "type": "button",
+                  "props": {
+                    "className": "aim",
+                    "onClick": "[function]",
+                    "children": "en"
+                  },
+                  "_store": {}
+                }
+              },
+              "_store": {}
+            }
+          ]
+        },
+        "rendered": [
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "left"
+            }
+          },
+          {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "right",
+              "children": {
+                "type": "button",
+                "props": {
+                  "className": "aim",
+                  "onClick": "[function]",
+                  "children": "en"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "className": "aim",
+                "onClick": "[function]",
+                "children": "en"
+              },
+              "rendered": "en"
+            }
+          }
+        ]
+      },
+      "type": "div",
+      "props": {
+        "className": "Main"
+      },
+      "children": [
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "left"
+            }
+          },
+          "type": "div",
+          "props": {
+            "className": "left"
+          }
+        },
+        {
+          "node": {
+            "nodeType": "host",
+            "type": "div",
+            "props": {
+              "className": "right",
+              "children": {
+                "type": "button",
+                "props": {
+                  "className": "aim",
+                  "onClick": "[function]",
+                  "children": "en"
+                },
+                "_store": {}
+              }
+            },
+            "rendered": {
+              "nodeType": "host",
+              "type": "button",
+              "props": {
+                "className": "aim",
+                "onClick": "[function]",
+                "children": "en"
+              },
+              "rendered": "en"
+            }
+          },
+          "type": "div",
+          "props": {
+            "className": "right"
+          },
+          "children": [
+            {
+              "node": {
+                "nodeType": "host",
+                "type": "button",
+                "props": {
+                  "className": "aim",
+                  "onClick": "[function]",
+                  "children": "en"
+                },
+                "rendered": "en"
+              },
+              "type": "button",
+              "props": {
+                "className": "aim",
+                "onClick": "[function]"
+              },
+              "children": [
+                "en"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "node": {
+        "nodeType": "host",
+        "type": "footer",
+        "props": {}
+      },
+      "type": "footer",
+      "props": {}
+    }
+  ]
+};
+
+exports["<Layout />/should match snapshot(1)"] = "you can match strings";
+
+exports["<Layout />/should match snapshot(2)"] = 123;
+
+exports["<Layout />/should match snapshot(3)"] = {
+  "a": 1,
+  "b": {
+    "c": 1
+  }
+};
+
